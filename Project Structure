@@ -1,0 +1,10 @@
+trading_bot/
+├── bot/
+│   ├── __init__.py
+│   ├── client.py          # Binance API wrapper / HTTP requests
+│   ├── orders.py          # Order execution logic
+│   ├── validators.py      # Input validation logic
+│   └── logging_config.py  # Log file setup
+├── cli.py                 # Main CLI entry point
+├── README.md              # Instructions, setup, and examples
+└── requirements.txt       # Dependencies (e.g., requests, python-binance, typer)
